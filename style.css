@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+/*  
+font-family: 'Montserrat', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+}
+
+body {
+  background-image: url(./assets/retro-living-room-interior-design.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.fa-phone {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.contact-details {
+  display: flex;
+  align-items: center;
+}
+
+.contact-details > p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  margin-left: 250px;
+}
+
+.list-item {
+  margin-right: 70px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.border-line {
+  height: 1px;
+  width: 67%;
+  background-color: #fff;
+  margin-left: 375px;
+}
+
+.main h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-left: 70px;
+  margin-top: 80px;
+  text-transform: capitalize;
+  width: 700px;
+}
+
+.main button {
+  background-color: transparent;
+  padding: 10px 30px;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 3px solid white;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: 70px;
+  font-weight: 700;
+}
+
+.card-first {
+  height: 120px;
+  width: 230px;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: absolute;
+  right: 100px;
+  top: 200px;
+}
+
+.fa-puzzle-piece {
+  padding: 5px 20px;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-desc1 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.line-1 {
+  height: 40px;
+  width: 1px;
+  background-color: #ffffff;
+  position: relative;
+  top: 20%;
+  left: 70%;
+}
+
+.circle-1 {
+  height: 15px;
+  width: 15px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  position: relative;
+  top: 15%;
+  left: 67%;
+}
+
+.card-second {
+  height: 140px;
+  width: 230px;
+  background-color: rgb(255, 255, 255, 0.2);
+  position: absolute;
+  right: 500px;
+  bottom: 80px;
+}
+
+.fa-lightbulb {
+  padding: 5px 20px;
+  color: black;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.card-desc2 {
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.line-2 {
+  height: 1px;
+  width: 40px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 50%;
+  left: 100%;
+}
+
+.circle-2 {
+  height: 15px;
+  width: 15px;
+  border-radius: 7px;
+  background-color: #ffffff;
+  position: relative;
+  bottom: 55%;
+  left: 117%;
+}
+
+.ham {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .list {
+    display: none;
+  }
+  .contact-details {
+    display: none;
+  }
+
+  .ham {
+    display: block;
+    font-size: 24px;
+  }
+
+  .logo {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .navbar {
+    margin: 20px 20px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .border-line {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    text-align: center;
+    width: auto;
+    margin: 0 20px;
+  }
+
+  .main button {
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .card-first {
+    height: 120px;
+    width: 205px;
+    background-color: rgb(255, 255, 255, 0.2);
+    position: absolute;
+    right: 20px;
+    top: 550px;
+  }
+
+  .card-second {
+    height: 120px;
+    width: 200px;
+    background-color: rgb(255, 255, 255, 0.2);
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+  }
+
+  body {
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+  }
+}
